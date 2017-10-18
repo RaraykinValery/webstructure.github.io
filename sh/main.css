@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	min-width: 1280px;
 }
@@ -97,10 +100,11 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 9px 0;
 }
 
 .navItem {
-	padding: 0 22px 0 22px;
+	padding: 0 22px 0 20px;
 	font: 21px/18px BebasNeueBold;
 	position: relative;
 }
@@ -111,7 +115,7 @@ ul {
     height: 20px;
     width: 2px;
     position: absolute;
-    right: -23px;
+    right: 0;
     top: -1px;
     background-color: #fff;
 
