@@ -100,7 +100,7 @@ ul {
 }
 
 .navItem {
-	margin: 0 22px 0 22px;
+	padding: 0 22px 0 22px;
 	font: 21px/18px BebasNeueBold;
 	position: relative;
 }
@@ -118,11 +118,11 @@ ul {
 }
 
 .navItem:first-child {
-	margin: 0 22px 0 0;
+	padding: 0 22px 0 0;
 }
 
 .navItem:last-child {
-	margin: 0 0 0 22px;
+	padding: 0 0 0 22px;
 }
 
 .navItem:last-child:after {
