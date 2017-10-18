@@ -85,7 +85,7 @@ ul {
 /*NAVIGATION*/
 
 .nav {
-	/*animation: nav 2.1s;*/
+	animation: nav 2.1s;
 	height: 36px;
 	background-color: #4ccfc1;
 	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
@@ -103,7 +103,7 @@ ul {
 }
 
 .navItem {
-	padding: 0 22px 0 20px;
+	padding: 0 23px 0 21px;
 	font: 21px/18px BebasNeueBold;
 	position: relative;
 }
@@ -121,11 +121,11 @@ ul {
 }
 
 .navItem:first-child {
-	padding: 0 22px 0 0;
+	padding: 0 23px 0 0;
 }
 
 .navItem:last-child {
-	padding: 0 0 0 22px;
+	padding: 0 0 0 23px;
 }
 
 .navItem:last-child:after {
@@ -146,8 +146,10 @@ ul {
 /*SECTION-1*/
 
 .section-1 {
+	animation: fade 1s linear;
 	min-height: 446px;
-	background: url(img/s_1_bg.png) no-repeat center center;
+	background: url(img/s_1_bg.png) no-repeat center center,
+				#3fc2b7;
 	background-size: cover;
 }
 
@@ -163,18 +165,19 @@ ul {
 }
 
 .slideCont {
-	animation: rotate 1s ease-in-out;
+	animation: moveRightRotate 1s ease-in-out;
 	margin: 0 101px 0 0;
 	align-self: flex-start;
 }
 
 .sec1__img {
+	animation: fade 1s ease-in-out;
 	width: 278px;
 	height: 325px;
 }
 
 .textCont {
-	animation: moveLeft 1s;
+	animation: moveLeftText 1s ease-in-out;
 	width: 402px;
 	align-self: flex-start;
 }
@@ -289,9 +292,11 @@ ul {
 /*PRODUCTS*/
 
 .hWrap {
+	animation: fade 1s linear;
 	height: 67px;
 	background-image: url(img/hwrap_bg.png);
 	background-size: cover;
+	background-color: #3fc2b7;
 }
 
 .h2Cont {
