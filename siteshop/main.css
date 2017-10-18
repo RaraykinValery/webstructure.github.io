@@ -75,7 +75,7 @@ ul {
 }
 
 .header__price {
-	font: bold 33px/19px BebasNeue;
+	font: 33px/19px BebasNeueBold;
 	color: #a1a1a1;
 }
 
@@ -101,8 +101,8 @@ ul {
 
 .navItem {
 	border-right: #fff solid 2px;
-	padding: 0 21px 0 21px;
-	font: bold 21px/0.857em BebasNeue;
+	padding: 0 19px 0 19px;
+	font: 21px/0.857em BebasNeueBold;
 }
 
 .navItem:first-child {
@@ -162,7 +162,7 @@ ul {
 }
 
 .sec-1__h1 {
-	font: bold 61px/54px BebasNeue;
+	font: 61px/54px BebasNeueBold;
 	color: white;
 	margin: 14px 0 14px 0;
 }
@@ -179,7 +179,7 @@ ul {
 	width: 139px;
 	border: #fff solid 3px;
 	border-radius: 7px;
-	font: bold 27px/19px BebasNeue;
+	font: 27px/19px BebasNeueBold;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
@@ -242,7 +242,7 @@ ul {
 
 .category__h3 {
 	margin: 28px 0 0 0;
-	font: bold 27px/25px BebasNeue;
+	font: 27px/25px BebasNeueBold;
 	color: #afafaf;
 }
 
@@ -252,7 +252,7 @@ ul {
 	padding: 9px 0 9px 0;
 	background-color: #3cc395;
 	border-radius: 3px;
-	font: bold 19px/19px BebasNeue;
+	font: 19px/19px BebasNeueBold;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
@@ -282,7 +282,7 @@ ul {
 
 .products__h2 {
 	margin: 0;
-	font: bold 31px/25px BebasNeue;
+	font: 31px/25px BebasNeueBold;
 	color: #fff;
 }
 
@@ -312,7 +312,7 @@ ul {
 .product__h4 {
 	text-align: center;
 	margin: 0 0 12px 0;
-	font: bold 27px/25px BebasNeue;
+	font: 27px/25px BebasNeueBold;
 	color: #afafaf;
 }
 
@@ -323,13 +323,13 @@ ul {
 }
 
 .product__prise {
-	font: bold 27px/25px BebasNeue;
+	font: 27px/25px BebasNeueBold;
 	color: #afafaf;
 }
 
 .product__button {
 	display: block;
-	font: bold 20px/20px BebasNeue;
+	font: 20px/20px BebasNeueBold;
 	min-width: 74px;
 	border-radius: 3px;
 	padding: 10px 0;
@@ -362,7 +362,7 @@ ul {
 }
 
 .employees__h {
-	font: bold 27px/25px BebasNeue;
+	font: 27px/25px BebasNeueBold;
 	color: #fff;
 	margin: 0 0 27px 0;
 }
