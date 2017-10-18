@@ -100,13 +100,13 @@ ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 9px 0;
 }
 
 .navItem {
 	padding: 0 22px 0 20px;
 	font: 21px/18px BebasNeueBold;
 	position: relative;
+	margin: 9px 0;
 }
 
 .navItem:after {
