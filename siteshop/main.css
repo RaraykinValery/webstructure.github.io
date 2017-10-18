@@ -102,8 +102,7 @@ ul {
 .navItem {
 	border-right: #fff solid 2px;
 	padding: 0 19px 0 19px;
-	font: 21px/0.857em BebasNeueBold;
-	vertical-align: middle;
+	font: 21px/1 BebasNeueBold;
 }
 
 .navItem:first-child {
