@@ -200,11 +200,10 @@ ul {
 	width: 139px;
 	border: #fff solid 3px;
 	border-radius: 7px;
-	font: 27px/19px BebasNeueBold;
+	font: 27px/40px BebasNeueBold;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	padding: 10px 0 10px 0;
 	transition: .1s ease-in-out;
 }
 
