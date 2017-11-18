@@ -1,0 +1,278 @@
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p {margin: 0;}
+
+ul, li {
+	margin: 0;
+}
+
+.anower-color {
+	color: #7dc93f;
+}
+
+/*HEADER*/
+
+.header {
+	background-color: #fff;
+	padding: 12px 0 13px 0;
+}
+
+.header .row {
+	position: relative;
+}
+
+.img-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	position: static;
+	margin: 0 0 12px 0;
+}
+
+.header img {
+	display: : block;
+}
+
+.nav {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}
+
+.header-link {
+	display: block;
+	text-decoration: none;
+	font: 500 1.4rem Poppins, sans-serif;
+	margin: 0 33px 0 0;
+	color: #080b1a;
+	text-transform: uppercase;
+	position: relative;
+	top: 1px;
+	letter-spacing: 1.3px;
+	transition: .2s ease-in-out;
+}
+
+.header-link:hover {
+	color: #7dc93f;
+}
+
+.nav li:last-child .header-link {
+	margin: 0;
+}
+
+/*BANNER*/
+
+.banner {
+	text-align: center;
+	background: #000 url(img/banner-bg.png) no-repeat center center;
+	background-size: cover;
+	padding: 91px 0 73px 0;
+}
+
+.banner h2 {
+	margin: 0 0 30px 0;
+}
+
+.banner h2, h3 {
+	font: 700 1.6rem/1.5em Montserrat, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.banner h1 {
+	font: 700 2.6rem/1.5em Montserrat;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 0 12px 0;
+}
+
+.banner h3 {
+	font-size: 1.2rem;
+	letter-spacing: 7px;
+	margin: 0 0 49px 0;
+	padding: 0 0 0 8px;
+	opacity: .5;
+}
+
+.banner-button {
+	display: block;
+	margin: 0 auto;
+	font: 1.4rem/2.642857142857143em Montserrat, sans-serif;
+	text-decoration: none;
+	color: #f5faf1;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: rgb(125, 201, 63);
+	width: 10.71428571428571em;
+	border-radius: 18px;
+}
+
+/*SECTION-1*/
+
+.section-1 {
+	padding: 50px 0 0 0;
+}
+
+.sec-1-img {
+	width: 89px;
+	height: 89px;
+	margin: 0 auto 27px auto;
+	background: url(img/sec-1-sprite.png) no-repeat;
+}
+
+.sec-1-img-1 {background-position: -10px -10px;}
+.sec-1-img-2 {background-position: -119px -10px;}
+.sec-1-img-3 {background-position: -228px -10px;}
+
+.section-1 h4 {
+	font: 700 1.8rem/1.333em Montserrat, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: #434343;
+	margin: 0 0 18px 0;
+}
+
+.section-1 .sec-1__anower-h4 {
+	color: #7dc93f;
+}
+
+.section-1 p {
+	font: 300 1.3rem/1.846153846153846em Poppins, sans-serif;
+	text-align: center;
+	color: #999999;
+	margin: 0 0 40px 0;
+}
+
+/*SECTION-2*/
+
+.section-2 {
+	padding: 20px 0 58px 0;
+}
+
+.section-2 h1 {
+	font: 700 2.2rem Montserrat, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 15px 0;
+}
+
+.section-2 h4 {
+	font: 1.4rem Poppins, sans-serif;
+	letter-spacing: 6px;
+	padding: 0 0 0 6px;
+	color: #999;
+	text-align: center;
+	margin: 0 0 23px 0;
+}
+
+hr {
+	width: 65px;
+	height: 0px;
+	border: .5px solid #7dc93f;
+	margin: 0 auto 13px auto;
+}
+
+.sec-2__prev-text {
+	text-align: center;
+	font: 1.4rem/1.714285714285714em Poppins, sans-serif;
+	color: #434343;
+	margin: 0 0 41px 0;
+}
+
+.imgLink-container {
+	position: relative;
+	max-width: 175px;
+	max-height: 133px;
+	margin: 0 auto 16px auto;
+}
+
+.imgLink-container:hover .sec-2__link {
+	opacity: 1;
+}
+
+.section-2 img {
+	display: block;
+	border-radius: 2px;
+}
+
+.sec-2__link {
+	position: absolute;
+	display: block;
+	opacity: 0;
+	top: 7px;
+	left: 7px;
+	height: 32px;
+	width: 32px;
+	border-radius: 2px;
+	background: #7dc93f url(img/sec-2-ic.png) no-repeat center center;
+	transition: .5s ease-in-out;
+}
+
+
+.sec-2__name {
+	font: 700 1.5rem Montserrat,sans-serif;
+	text-align: center;
+	color: #434343;
+	text-transform: uppercase;
+	margin: 0 0 2px 0;
+}
+
+.sec-2__position {
+	text-align: center;
+	font: 1.5rem Poppins, sans-serif;
+	color: #7dc93f;
+	margin: 0 0 20px 0;
+}
+
+/*FOOTER*/
+
+.footer {
+	padding: 43px 0 53px;
+	background-color: #323232;
+}
+
+.links-cont {
+	margin: 0 0 18px 0;
+}
+
+.social-cont {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 10px 0;
+}
+
+.social-cont:hover i {
+	color: #73b53d;
+}
+
+.social-cont:hover .footer__socials {
+	color: #73b53d;
+}
+
+i {
+	margin: 0 8px 0 0;
+	color: #fff;
+}
+
+.footer__socials {
+	font: 500 1.4rem/2em Poppins, sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+
+i, .footer__socials {
+	transition: .2s ease-in-out;
+}
+
+.footer__inform {
+	text-align: center;
+	font: 1.4rem/2em Poppins, sans-serif;
+	color: #fff;
+}

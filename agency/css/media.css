@@ -1,0 +1,38 @@
+@media (min-width: 523px) {
+	.banner h1 {
+		font-size: 3rem;
+	}
+
+	.banner h3 {
+		letter-spacing: 13px;
+	}
+
+
+	.section-2 h1 {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 670px) {
+	.header {
+	padding: 16px 0 18px 0;
+	}
+
+	.banner h1 {
+	font: 700 3.6rem/1.5em Montserrat;
+	}
+
+	.nav {
+		justify-content: flex-end;
+	}
+	
+	.section-2 {
+	padding: 69px 0 58px 0;
+	}
+	
+	.img-container {
+		position: absolute;
+		justify-content: flex-start;
+		margin: 0;
+	}
+}
