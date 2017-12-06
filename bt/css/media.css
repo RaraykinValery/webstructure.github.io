@@ -1,0 +1,98 @@
+@media (min-width: 576px) {
+
+	/*PRESENTATION*/
+	.presentation__bg-img {
+		display: block;
+		width: 339px;
+		height: 617px;
+		background: url(../img/presentation-bg-iphone.png) no-repeat center center;
+	}
+}
+
+@media (min-width: 768px) {
+
+	/*HEADER*/
+	.header {
+		padding: 50px 0;
+	}
+	.header-content {
+		flex-direction: row;
+	}
+	.logo {
+		margin: 0 8.2% 0 0;
+	}
+	.nav {
+		margin: 0 auto 0 0;
+	}
+
+	/*BANNER*/
+	.banner {
+		padding: 164px 0 179px 0;
+	}
+	.banner__h1 {
+		font-size: 2.125rem;
+	}
+	.button-bord--iphone {
+		margin: 0 20px 0 0;
+	}
+	.banner__link:last-child {
+		margin: 0;
+	}
+
+	/*PARTNERS*/
+	.logo-wrap {
+		height: 100px;
+	}
+
+	/*PRESENTATION*/
+	.presentation {
+		padding: 90px 0 98px 0;
+	}
+	.presentation-text {
+		padding: 0 0 0 30px;
+	}
+	.presentation__h1 {
+		font: 600 2.125rem/1.352941176470588em "Open Sans", sans-serif;
+	}
+	.presentation li {
+		font: 1rem/2.75em Arial, sans-serif;
+		margin: 0;
+	}
+	.button-bord--video {
+		margin: 0 41px 0 0;
+	}
+	.presentation a {
+		margin: 0;
+	}
+
+	/*EMPLOYEES*/
+	.employees {
+		padding: 89px 0 99px 0;
+	}
+
+	/*JOIN*/
+	.join {
+		padding: 95px 0 101px 0;
+	}
+
+	/*FOOTER*/
+
+	.footer {
+		padding: 100px 0 103px 0;
+	}
+}
+
+@media (min-width: 992px) {
+
+	/*PRESENTATION*/
+	.presentation__bg-img {
+		display: block;
+		width: 339px;
+		height: 617px;
+		background: url(../img/presentation-bg-iphone.png) no-repeat 123px -21px;
+	}
+}
+
+@media (min-width: 1200px) {
+
+}
