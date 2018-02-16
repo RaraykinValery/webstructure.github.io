@@ -5,6 +5,10 @@ body {
 	min-width: 1280px;
 }
 
+.wrapper {
+	heigth: calc(100vh - 45px);
+}
+
 .container {
 	width: 986px;
 	margin: 0 auto;
