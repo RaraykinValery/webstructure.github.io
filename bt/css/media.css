@@ -16,13 +16,43 @@
 		padding: 50px 0;
 	}
 	.header-content {
-		flex-direction: row;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: row;
+				flex-direction: row;
 	}
 	.logo {
 		margin: 0 8.2% 0 0;
 	}
+	.toggle-button {
+		display: none;
+	}
 	.nav {
+		display: block;
 		margin: 0 auto 0 0;
+		padding: 0;
+		width: inherit;
+		border-radius: 0;
+		position: static;
+		background-color: transparent;
+	}
+	.nav ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+		-ms-flex-flow: row;
+			flex-flow: row;
+	-webkit-box-align: start;
+		-ms-flex-align: start;
+			align-items: flex-start;
+}
+	.nav li {
+		margin: 0 44px 0 0;
+	}
+	.social {
+		margin: 0;
 	}
 
 	/*BANNER*/
@@ -89,7 +119,7 @@
 		display: block;
 		width: 339px;
 		height: 617px;
-		background: url(../img/presentation-bg-iphone.png) no-repeat 123px -21px;
+		background: url(../img/presentation-bg-iphone.png) no-repeat 97px -2px;
 	}
 }
 
