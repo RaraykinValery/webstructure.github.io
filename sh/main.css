@@ -297,7 +297,7 @@ ul {
 .hWrap {
 	animation: fade 1s linear;
 	height: 67px;
-	background-image: url(img/hwrap_bg.png);
+	background-image: url(img/hwrap_bg.jpg);
 	background-size: cover;
 	background-color: #3fc2b7;
 }
