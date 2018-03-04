@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="css/reboot.css">
+	<link rel="stylesheet" href="css/media.css">
+	<title>Technodom</title>
+</head>
+<body>
+	<!-- BEGIN WRAPPER -->
+	<div class="wrapper">
+		<!-- BEGIN HEADER -->
+		<header class="header">
+			<div class="panel clearfix">
+				<span class="panel__label">Ваш город</span>
+				<span class="panel__city">Усть-Каменогорск</span>
+				<a href="#" class="panel__personal">Личный кабинет</a>
+			</div>
+			<a href="#"><img class="header__logo" src="img/logo.png" alt="Technodom"></a>
+		</header>
+		<!-- END HEADER -->
+		<!-- BEGIN INNER-WRAPPER -->
+		<div class="inner-wrapper">
+			<nav class="nav" id="nav">
+				<!-- Место для breadcrumbs -->
+			</nav>
+			<main class="main">
+				<h1 class="main__header">Ноутбуки <span class="main__header-span">(4 685)</span></h1>
+				<section class="laptop">
+					<h2 class="laptop__header">Ноутбуки</h2>
+					<p class="laptop__text">Магазин «ТЕХНОДОМ» рад приветствовать всех, кто ценит мобильность и удобство портативных компьютеров, и предлагает по приемлемой стоимости самые современные ноутбуки в Казахстане! В данном разделе Вы можете выбрать и выгодно купить ноутбук в Актобе, в Алматы, в Астане, в Караганде, в Костанае, в Павлодаре, в Усть-Каменогорске и других населенных пунктах страны,</p>
+					<p class="laptop__full-text toggle-elem close" id="laptop__full-text">Магазин «ТЕХНОДОМ» рад приветствовать всех, кто ценит мобильность и удобство портативных компьютеров, и предлагает по приемлемой стоимости самые современные ноутбуки в Казахстане! В данном разделе Вы можете выбрать и выгодно купить ноутбук в Актобе, в Алматы, в Астане, в Караганде, в Костанае, в Павлодаре, в Усть-Каменогорске и других населенных пунктах страны,</p>
+					<button class="laptop__read-all" id="laptop__read-all">Читать полностью</button>
+				</section>
+			</main>
+		</div>
+		<!-- END INNER-WRAPPER -->
+	</div>
+	<!-- END WRAPPER -->
+		<!-- BEGIN FOOTER -->
+		<footer class="footer clearfix">
+			<div class="footer-wrapper">
+				<div class="descr-wrap">
+					<div class="description">
+						<h3 class="desctiption__header">Технодом</h3>
+						<p class="description__text">Интернет-магазин бытовой теники и электроники</p>
+					</div>
+				</div>
+				<div class="call-mail-wrap">
+					<div class="mail">
+						<p class="mail__text">Электронная почта</p>
+						<span class="mail__email">callcenter@technodom.kz</span>
+						<span class="mail__skype">admin.technodom</span>
+					</div>
+					<div class="call-center">
+						<p class="call-center__text">Единый Call Center</p>
+						<span class="call-center__descr">Бесплатные звонки по Казахстану</span> 
+						<span class="call-center__phone">8 800 080 1111</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+
+<script id="breadcrumbs" type="text/x-handlebars-template">
+	{{#each links}}
+	<a href="{{href}}">{{title}}</a>
+	{{/each}}
+</script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="lib/jquery.hiddenBlock.js"></script>
+<script src="js/handlebars-v4.0.11.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

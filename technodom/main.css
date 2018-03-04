@@ -1,0 +1,214 @@
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+button {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+/*HEADER*/
+.wrapper {
+	max-width: 1024px;
+	min-height: calc(101vh - 273px);
+	padding: 0 19px 0 19px;
+	margin: 0 auto 81px auto;
+}
+
+.header {
+	margin: auto;
+}
+
+.panel {
+	border-bottom: 1px solid #efefef;
+	margin: 0 0 30px 0;
+}
+
+.panel__label,
+.panel__city {
+	padding: 9px 0 8px 0;
+	float: left;
+	font: 0.75rem/1.83em Arial, sans-serif;
+}
+
+.panel__label {
+	color: #898989;
+	margin: 0 10px 0 0;
+}
+	
+.panel__city {
+	color: #010101;
+	font-weight: bold;
+}
+
+.panel__personal {
+	display: block;
+	font: bold 0.75rem/1.83em Arial, sans-serif;
+	float: right;
+	color: #000;
+	padding: 8px 19px 9px 45px;
+	background: #fdfcef url(img/personal_ic.png) no-repeat 22px center;
+	-webkit-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.panel__personal:hover {
+	background-color: #ffd4ef;
+}
+
+.header__logo {
+	margin: 0 0 22px 1px;
+}
+
+/*NAVIGATION*/
+
+.inner-wrapper {
+	padding: 0 0 0 22px;
+}
+
+.nav {
+	margin: 0 0 21px 0;
+	min-height: 37px;
+}
+
+.nav a {
+	font: 0.75rem/3.16em Arial, sans-serif;
+	color: #055197;
+	padding: 0 9px 0 0;
+	background: url(img/arrow.png) no-repeat right center;
+}
+
+.nav a:last-child {
+	background-image: none;
+	padding: 0;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
+
+/*MAIN*/
+.main__header {
+	font: bold 1.875rem/1.26em Arial, sans-serif;
+	margin: 0 0 21px 0;
+}
+
+.main__header-span {
+	font: 1.625rem/1em Arial, sans-serif;
+	color: #8d8d8d;
+}
+
+.laptop {
+	padding: 0 0 0 20px;
+	max-width: 681px;
+}
+
+.close {
+	display: none;
+}
+
+.laptop__header {
+	font: bold 1rem/1.25em Arial, sans-serif;
+	color: #898989;
+}
+
+.laptop__text {
+	font: 0.875rem/1.428571428571429em Arial, sans-serif;
+	color: #898989;
+	margin: 0 0 11px 0;
+}
+
+.laptop__read-all {
+	font: 0.875rem/1.428571428571429em Arial, sans-serif;
+	color: #055197;
+	cursor: pointer;
+	outline: none;
+}
+
+/*FOOTER*/
+.footer-wrapper {
+	max-width: 1024px;
+	margin: auto;
+	padding: 0 61px 0 19px;
+}
+
+.footer {
+	background-color: #323232;
+}
+
+.descr-wrap {
+	float: left;
+	padding: 38px 0 60px 0;
+}
+
+.description {
+	float: left;
+}
+
+.desctiption__header {
+	font: 1.875rem/1em Arial, sans-serif;
+	color: #d2d2d2;
+	margin: 0 0 14px 0;
+}
+
+.description__text {
+	font: 1rem/1.428571428571429em Arial, sans-serif;
+	color: #898989;
+	max-width: 210px;
+	margin: 0;
+}
+
+.mail {
+	float: right;
+	font: 1rem/1.428571428571429em Arial, sans-serif;;
+}
+
+.mail__text {
+	color: #898989;
+	margin: 0 0 3px 0;
+}
+
+.mail__email {
+	display: block;
+	margin: 0 0 15px 0;
+	color: #d2d2d2;
+}
+
+.mail__skype {
+	display: block;
+	color: #d2d2d2;
+	padding: 0 0 0 30px;
+	background: url(img/skype_ic.png) no-repeat center left;
+}
+
+.call-mail-wrap {
+	float: right;
+	padding: 82px 0 14px 0;
+}
+
+.call-center {
+	float: right;
+	margin: 0 45px 0 0;
+}
+
+.call-center__text {
+	font: 1rem/1.428571428571429em Arial, sans-serif;
+	color: #838383;
+}
+
+.call-center__descr {
+	font: 0.9375rem/1.428571428571429em Arial, sans-serif;
+	color: #838383;
+	display: block;
+	margin: 0 0 2px 0;
+}
+
+.call-center__phone {
+	display: block;
+	font-weight: bold;
+	color: #d2d2d2;
+}
