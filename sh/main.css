@@ -152,7 +152,7 @@ ul {
 .section-1 {
 	animation: fade 1s linear;
 	min-height: 446px;
-	background: url(img/s_1_bg.png) no-repeat center center,
+	background: url(img/s_1_bg.jpg) no-repeat center center,
 				#3fc2b7;
 	background-size: cover;
 }
