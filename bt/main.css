@@ -118,21 +118,21 @@ a:hover {
 	margin: 0;
 }
 
-.header__ic-1, .header__ic-2, .header__ic-3 {
+.socials__ic-1, .socials__ic-2, .socials__ic-3 {
 	width: 30px;
 	height: 30px;
 	background-image: url(img/social-sprite.png);
 }
 
-.header__ic-1 {
+.socials__ic-1 {
 	background-position: -5px -5px;
 }
 
-.header__ic-2 {
+.socials__ic-2 {
 	background-position: -85px -5px;
 }
 
-.header__ic-3 {
+.socials__ic-3 {
 	background-position: -45px -5px;
 }
 
