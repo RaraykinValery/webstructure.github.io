@@ -1,2 +1,2 @@
 # wedstructure.github.io
-Examples of codin
+Examples of coding
