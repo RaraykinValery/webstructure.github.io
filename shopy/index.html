@@ -4,8 +4,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta charset="UTF-8">
-	<link async rel="stylesheet" href="css/styles.css">
-	<link async href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+	<style>
+		.contacts{border-bottom:1px solid #e6e8eb}.contacts-inner-wrap{position:relative;padding:24px 0;display:flex;justify-content:space-between;align-items:center}@media (max-width: 435px){.contacts-inner-wrap{flex-direction:column;padding:15px 0}}.links{display:flex;align-items:center}@media (max-width: 435px){.links{margin-bottom:15px}}.links__link{margin-right:19px;font-size:12px;color:#34404b;font-family:"Source Sans Pro";font-size:12px}.links__link-icon{display:inline-block;width:18px;height:11px;background-image:url(../img/icon-sprite.png);background-position:-67px -33px;margin-right:9px}.links__phone{font-size:12px;color:#34404b;font-family:"Source Sans Pro";font-size:12px}.links__phone-icon{display:inline-block;width:12px;height:12px;background-image:url(../img/icon-sprite.png);background-position:-95px -5px;margin-right:9px}.socials{display:flex;align-items:center;justify-content:space-between}.socials__link{background-image:url(../img/icon-sprite.png)}.socials__link--facebook-ic{width:6px;height:11px;background-position:-95px -48px}.socials__link--twitter-ic{width:14px;height:11px;background-position:-63px -63px}.socials__link--google-ic{width:14px;height:12px;background-position:-39px -36px}.socials__link--instagram-ic{width:11px;height:11px;background-position:-95px -27px}.socials a + a{margin-left:22px}.header-controls-wrap{border-bottom:1px solid #eff0f2}.header-controls{padding:40px 0;display:flex;flex-flow:row wrap;justify-content:flex-start;align-items:center}@media (max-width: 730px){.header-controls{flex-flow:column nowrap}}@media (max-width: 930px){.header-controls{padding:30px 0}}.header-controls__logo{margin-right:83px}@media (max-width: 930px){.header-controls__logo{flex-basis:100%;text-align:center;margin:0 0 25px}}.nav{display:flex}@media (max-width: 730px){.nav{margin-bottom:25px}}@media (max-width: 525px){.nav{width:90%;flex-flow:column nowrap;align-items:center}}.nav__button{display:none}@media (max-width: 525px){.nav__button{display:block;width:100%;margin-bottom:7px;background:#ff5912;color:#fff;font-family:"Source Sans Pro";border:none;padding:2px}}.nav__link{text-decoration:none;color:#34404b;font-family:"Source Sans Pro";font-size:16px;transition:.2s ease-in-out}@media (max-width: 525px){.nav__link{display:none}}.nav__link:hover{color:#ff5912;text-decoration:none}.nav__link--active{color:#ff5912}.nav__link + .nav__link{margin-left:40px}@media (max-width: 525px){.nav__link + .nav__link{margin:0}}.user-panel{margin-left:auto;display:flex;align-items:flex-end}@media (max-width: 730px){.user-panel{margin:0}}.user-panel__link{display:block;background:url(../img/icon-sprite.png) no-repeat}.user-panel__link--search{width:19px;height:19px;background-position:-66px -5px}.user-panel__link--profile{width:20px;height:21px;background-position:-37px -5px}.user-panel__link--basket{position:relative;width:24px;height:17px;background-position:-5px -36px}.user-panel__link--basket span{display:block;position:absolute;top:-115%;left:53%;transform:translateX(-50%);width:18px;height:18px;border-radius:50%;background:#34404b;text-align:center;line-height:18px;color:#fff;font-family:"Source Sans Pro";font-size:10px;font-weight:300}.user-panel__link + .user-panel__link{margin-left:34px}
+	</style>
 	<title>Shopy</title>
 </head>
 <body>
@@ -166,6 +167,9 @@
 	<!-- end footer -->
 
 	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script async>
+		$("head").append("<link rel='stylesheet' href='css/styles.css'><link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet'>");
+	</script>
 	<script async src="js/slick.min.js"></script>
 	<script async src="js/data.js"></script>
 	<script async src="js/common.js"></script>
