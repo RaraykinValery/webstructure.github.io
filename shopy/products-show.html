@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="">
-	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
 	<title>Products Show</title>
 </head>
 <body class="presentation-page">
@@ -177,48 +177,48 @@
 	</footer>
 	<!-- end footer -->
 
-	<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script async src="js/slick.min.js"></script>
-	<script async src="js/data.js"></script>
-	<script async src="js/common.js"></script>
-	<script async src="js/products-show.js"></script>
-	<script async src="js/handlebars-v4.0.11.js"></script>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/products-show.js"></script>
+	<script src="js/handlebars-v4.0.11.js"></script>
 
-	<script id="gd-template" type="text/x-handlebars-template">
-			{{#each goods}}
-			<div class="gd-wrap">
-				<a href="#" class="gd-link">
-					<div class="gd">
-						<img src="img/{{image}}" class="gd__picture"></img>
-						<div class="gd-descr">
-							<h3 class="gd-descr__header gd-h3">{{title}}</h3>
-							<span class="gd-descr__price price">{{price}}</span>
-						</div>
-					</div>
-				</a>
-				<div class="cover-gd">
-					<img src="img/{{imageMin}}" class="cover-gd__picture"></img>
-					<h3 class="cover-gd__header gd-h3">{{title}}</h3>
-					<div class="gd-sizes">
-						<span class="gd-sizes__title">sizes : </span>
-						{{#each sizes}}
-						<span class="gd-sizes__size">{{size}}</span>
-						{{/each}}
-					</div>
-					<div class="colors">
-						{{#each colors}}
-						<span class="colors__item colors__item--{{color}}"></span>
-						{{/each}}
-					</div>
-					<hr class="cover-gd__hr">
-					<div class="buy-icons">
-						<a href="#" class="buy-icons__elem buy-icons__elem--share"></a>
-						<a href="#" class="buy-icons__elem buy-icons__elem--buy"></a>
-						<a href="#" class="buy-icons__elem buy-icons__elem--like"></a>
+<script id="gd-template" type="text/x-handlebars-template">
+		{{#each goods}}
+		<div class="gd-wrap">
+			<a href="#" class="gd-link">
+				<div class="gd">
+					<img src="img/{{image}}" class="gd__picture"></img>
+					<div class="gd-descr">
+						<h3 class="gd-descr__header gd-h3">{{title}}</h3>
+						<span class="gd-descr__price price">{{price}}</span>
 					</div>
 				</div>
+			</a>
+			<div class="cover-gd">
+				<img src="img/{{imageMin}}" class="cover-gd__picture"></img>
+				<h3 class="cover-gd__header gd-h3">{{title}}</h3>
+				<div class="gd-sizes">
+					<span class="gd-sizes__title">sizes : </span>
+					{{#each sizes}}
+					<span class="gd-sizes__size">{{size}}</span>
+					{{/each}}
+				</div>
+				<div class="colors">
+					{{#each colors}}
+					<span class="colors__item colors__item--{{color}}"></span>
+					{{/each}}
+				</div>
+				<hr class="cover-gd__hr">
+				<div class="buy-icons">
+					<a href="#" class="buy-icons__elem buy-icons__elem--share"></a>
+					<a href="#" class="buy-icons__elem buy-icons__elem--buy"></a>
+					<a href="#" class="buy-icons__elem buy-icons__elem--like"></a>
+				</div>
 			</div>
-			{{/each}}
-		</script>
+		</div>
+		{{/each}}
+	</script>
 </body>
 </html>

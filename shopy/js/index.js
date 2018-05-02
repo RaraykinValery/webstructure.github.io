@@ -1,1 +1,34 @@
-function buttonsPositionHandler(){var e=$(".container"),s=$(".hero-buttons");return function(){var t=e.offset(),o=e.css("padding-left");o=parseInt(o,10),s.css("left",t.left+o)}}$(document).ready(function(){handlebarsCompiling("slides-template",slides,".hero-slider"),$(".hero-slider").slick({arrows:!1,dots:!0,dotsClass:"hero-buttons",autoplaySpeed:2e3});var e=buttonsPositionHandler();e(),$(window).resize(e),handlebarsCompiling("gd-template",goods,".goods"),handlebarsCompiling("best-gd-template",bestGoods,".best-sales")});
+function buttonsPositionHandler() {
+	var $heroContent = $(".container");
+	var $dots = $(".hero-buttons");
+
+	function changePosition() {
+		var position = $heroContent.offset();
+		var padding = $heroContent.css("padding-left");
+		padding = parseInt(padding, 10);
+		$dots.css("left", position.left + padding);
+	}
+
+	return changePosition;
+}
+
+$(document).ready(function() {
+	handlebarsCompiling("slides-template", slides, ".hero-slider");
+	//Slick-slider
+	$(".hero-slider").slick({
+		arrows : false,
+		dots : true,
+		dotsClass: "hero-buttons",
+		autoplay: true,
+		autoplaySpeed: 2000
+	});
+
+	var changePosition = buttonsPositionHandler();
+	changePosition();
+	$(window).resize(changePosition);
+
+	handlebarsCompiling("gd-template", goods, ".goods");
+	handlebarsCompiling("best-gd-template", bestGoods, ".best-sales");
+
+});
+
