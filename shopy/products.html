@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Products</title>
+</head>
+<body class="products-page">
+	<button class="filters-button" id="js-filters-button">Filters</button>
+
+	<!-- begin header -->
+	<header class="header">
+		<div class="contacts">
+			<div class="container">
+				<div class="contacts-inner-wrap">
+					<div class="links">
+						<i class="links__link-icon"></i>
+						<a href="#" class="links__link">info@shopy.com</a>
+						<i class="links__phone-icon"></i>
+						<a href="tel:" class="links__phone">453-5553-996</a>
+					</div>
+					<div class="socials">
+						<a href="#" class="socials__link socials__link--facebook-ic"></a>
+						<a href="#" class="socials__link socials__link--twitter-ic"></a>
+						<a href="#" class="socials__link socials__link--google-ic"></a>
+						<a href="#" class="socials__link socials__link--instagram-ic"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-controls-wrap">
+			<div class="container">
+				<div class="header-controls">
+					<a href="#" class="header-controls__logo logo">
+						<img src="img/logo.png" alt="Shopy: shop any where!">
+					</a>
+					<nav class="nav">
+						<button class="nav__button">Navigation</button>
+						<a href="index.html" class="nav__link">Home</a>
+						<a href="products.html" class="nav__link nav__link--active">Products</a>
+						<a href="#" class="nav__link">Hot Deals</a>
+						<a href="#" class="nav__link">About</a>
+						<a href="#" class="nav__link">Contact</a>
+					</nav>
+					<div class="user-panel">
+						<a href="#" class="user-panel__link user-panel__link--search"></a>
+						<a href="#" class="user-panel__link user-panel__link--profile"></a>
+						<a href="#" class="user-panel__link user-panel__link--basket"><span>5</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end header -->
+
+
+	<!-- begin main -->
+	<main class="main">
+		<div class="container">
+			<div class="filter-goods-wrap">
+				<section class="filters" id="js-filters">
+					
+					<div class="filters-part categories-filter">
+						<h3 class="filters-part__header">Categories</h3>
+						<button class="filters-part__text-item">Man</button>
+						<button class="filters-part__text-item">Women</button>
+						<button class="filters-part__text-item">Childrens</button>
+						<button class="filters-part__text-item">Hot Deals</button>
+					</div>
+					<div class="filters-part price-filter">
+						<h3 class="filters-part__header filters-part__header--margin-b">Price Filtter</h3>
+						<div class="range">
+							<div class="range__line range__line--left"></div>
+							<div class="range__line range__line--right"></div>
+							<div class="range-dot range-dot-left"><span class="range-dot__value">100$</span></div>
+							<div class="range-dot range-dot-right"><span class="range-dot__value">1000$</span></div>
+						</div>
+						<div class="from-to">
+							<label for="i-from">From</label>
+							<input type="text" id="i-from" class="from-to__input from-to__input--margin-r">
+							<label for="i-to">To</label>
+							<input type="text" id="i-to" class="from-to__input">
+						</div>
+					</div>
+					<div class="filters-part sizes-filter">
+						<h3 class="filters-part__header">Sizes</h3>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="switch__slider"></span>
+							<span class="switch__label">Small</span>
+						</label>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="switch__slider"></span>
+							<span class="switch__label">Medium</span>
+						</label>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="switch__slider"></span>
+							<span class="switch__label">Large</span>
+						</label>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="switch__slider"></span>
+							<span class="switch__label">X Large</span>
+						</label>
+					</div>
+					<div class="filters-part brands-filter">
+						<h3 class="filters-part__header">Brands</h3>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="switch__slider"></span>
+							<span class="switch__label">Reebok</span>
+						</label>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="switch__slider"></span>
+							<span class="switch__label">Addidas</span>
+						</label>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="switch__slider"></span>
+							<span class="switch__label">Nike</span>
+						</label>
+						<label class="switch">
+							<input type="checkbox">
+							<span class="switch__slider"></span>
+							<span class="switch__label">Active</span>
+						</label>
+					</div>
+				</section>
+				<div class="no-gutters-container">
+					<div class="goods">
+						<!-- gd-template -->
+					</div>
+					<div class="progress-bar">
+						<div class="bar">
+							<div class="bar__elem"></div>
+							<div class="bar__elem"></div>
+							<div class="bar__elem"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="news-letter">
+				<div class="letter-header">
+					<h4 class="letter-header__header">News letter</h4>
+					<p class="letter-header__text">join us now to get all news and special offers</p>
+				</div>
+				<div class="letter-form-wrap">
+					<form class="letter-form">
+						<label for="mail-input" class="letter-form__icon"></label>
+						<input id="mail-input" type="email" class="letter-form__input" placeholder="type your email here">
+						<input type="submit" class="letter-form__submit" value="join us ">
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- end main -->
+
+	<!-- begin footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-inner-wrap">
+				<div class="logo-col">
+					<a href="#" class="logo-col__logo logo">
+						<img src="img/logo.png" alt="Shopy: shop any where!">
+					</a>
+					<p class="logo-col__text">shopy c 2015 . your copy right here</p>
+				</div>
+				<ul class="links-lists">
+					<ul class="list-col-1">
+						<li class="footer-list-item"><a href="#">about us</a></li>
+						<li class="footer-list-item"><a href="#">contact us</a></li>
+						<li class="footer-list-item"><a href="#">support</a></li>
+					</ul>
+					<ul class="list-col-2">
+						<li class="footer-list-item"><a href="#">our feed</a></li>
+						<li class="footer-list-item"><a href="#">terms and conditions</a></li>
+						<li class="footer-list-item"><a href="#">our privacy</a></li>
+					</ul>
+					<ul class="list-col-3">
+						<li class="footer-list-item"><a href="#">join us</a></li>
+						<li class="footer-list-item"><a href="#">live support</a></li>
+					</ul>
+				</ul>
+				<div class="pay-method">
+					<h5 class="pay-method__header">Payment Methods</h5>
+					<div class="methods">
+						<span class="method__card method__card--amex"></span>
+						<span class="method__card method__card--some"></span>
+						<span class="method__card method__card--visa"></span>
+						<span class="method__card method__card--master-card"></span>
+						<span class="method__card method__card--another"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<button class="filters-close" id="js-filters-close"><span>&#215</span></button>
+
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/products.js"></script>
+	<script src="js/handlebars-v4.0.11.js"></script>
+
+	<script id="gd-template" type="text/x-handlebars-template">
+		{{#each goods}}
+		<div class="gd-wrap">
+			<a href="{{link}}" class="gd-link">
+				<div class="gd">
+					<img src="img/{{image}}" class="gd__picture"></img>
+					<div class="gd-descr">
+						<h3 class="gd-descr__header gd-h3">{{title}}</h3>
+						<span class="gd-descr__price price">{{price}}</span>
+					</div>
+				</div>
+			</a>
+			<div class="cover-gd">
+				<img src="img/{{imageMin}}" class="cover-gd__picture"></img>
+				<h3 class="cover-gd__header gd-h3">{{title}}</h3>
+				<div class="gd-sizes">
+					<span class="gd-sizes__title">sizes : </span>
+					{{#each sizes}}
+					<span class="gd-sizes__size">{{size}}</span>
+					{{/each}}
+				</div>
+				<div class="colors">
+					{{#each colors}}
+					<span class="colors__item colors__item--{{color}}"></span>
+					{{/each}}
+				</div>
+				<hr class="cover-gd__hr">
+				<div class="buy-icons">
+					<a href="#" class="buy-icons__elem buy-icons__elem--share"></a>
+					<a href="{{link}}" class="buy-icons__elem buy-icons__elem--buy"></a>
+					<a href="#" class="buy-icons__elem buy-icons__elem--like"></a>
+				</div>
+			</div>
+		</div>
+		{{/each}}
+	</script>
+</body>
+</html>
