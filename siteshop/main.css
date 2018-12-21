@@ -147,7 +147,7 @@ ul {
 
 .section-1 {
 	min-height: 446px;
-	background: url(img/s_1_bg.png) no-repeat center center;
+	background: #3cc5b3 url(img/s_1_bg.png) no-repeat center center;
 	background-size: cover;
 }
 
