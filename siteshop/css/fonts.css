@@ -1,0 +1,15 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url('../fonts/BebasNeue-Regular.ttf'),
+    	 url('../fonts/BebasNeue-Regular.eot');
+}
+@font-face {
+    font-family: BebasNeueBold;
+    src: url('../fonts/BebasNeue-Bold.ttf');
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+

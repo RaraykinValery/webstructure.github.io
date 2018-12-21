@@ -1,0 +1,84 @@
+@keyframes fade {
+	0% {
+		opacity: 0.4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes stretching {
+	0%, 54.5% {
+		transform: scaleX(0);
+	}
+	100% {
+		transform: scaleX(1);
+	}
+}
+
+.stretching {
+	animation: stretching 1.5s ease-in-out;
+}
+
+@keyframes moveLeft {
+		0% {
+		transform: translateX(250px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes moveRight {
+		0% {
+		transform: translateX(-250px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes rotate {
+	from {transform: rotateY(0deg);}
+	to {transform: rotateY(360deg);}
+}
+
+@keyframes nav {
+	0%, 57%{
+		transform: translate(-1400px);
+	}
+	100% {
+		transform: translate(0px);
+	}
+}
+
+@keyframes logoMove {
+	0% {
+		transform: translateX(250px);
+		opacity: 0;
+	}
+	46% {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+	80% {transform: scale(1);}
+	85% {transform: scale(1.1);}
+	90% {transform: scale(1);}
+	95% {transform: scale(1.05);}
+	100% {transform: scale(1);}
+}
+
+@keyframes becoming {
+	from, 20% {opacity: 0;}
+	to {opacity: 1;}
+}
+
