@@ -1,4 +1,4 @@
-# wedstructure.github.io
+# webstructure.github.io
 __Examples of coding:__
 1. [BootstrapTemplate](https://wedstructure.github.io/bt/) - an adaptive bootstrap page.
 1. [Shopy](https://wedstructure.github.io/shopy) - adaptive pages of online store.
